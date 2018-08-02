@@ -1,0 +1,39 @@
+.um-content{
+	background:#E40011;
+}
+.login{
+	background:#fff;
+	padding:15px;
+	border-radius:5px;
+	padding:6%;
+}
+.login button.um-btn{
+	border-radius:3px;
+	padding:5px 12px;
+	border-color:#E40011;
+	background:#E40011;
+}
+.login p.title{
+	color:#E40011;
+}
+.login p.user{
+	color:#848484;
+}
+input.form-control{
+	border:none;
+	border-bottom:1px solid #e3e3e5;
+	padding-left:0px;
+}
+input.form-control:focus{
+	box-shadow:none;
+}
+.login .um-input-clear {
+	color: #fff;
+	background-color: #ddd;padding:4px;
+}
+.form-control:focus + .um-input-clear {
+	color: #fff;
+}
+.um-input-clear.ti-eye.eye{
+	color:#256FEA;
+}

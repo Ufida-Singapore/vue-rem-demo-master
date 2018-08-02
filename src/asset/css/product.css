@@ -1,0 +1,173 @@
+.picker .picker-panel{
+
+    height: auto;/*总高度*/
+}
+
+.picker .picker-panel .picker-choose{
+
+    height: auto;/*标题高度*/
+
+    padding: 0 1rem;
+
+}
+
+.picker .picker-panel .picker-content .mask-top{
+
+    height: 5rem;/*内容区域上蒙层高度*/
+
+}
+
+.picker .picker-panel .picker-content .mask-bottom{
+
+    height: 5rem;/*内容区域下蒙层高度*/
+
+}
+
+.picker .picker-panel .wheel-wrapper .wheel{
+
+    height: 15rem;/*内容区域内容总高度*/
+
+}
+
+.picker .picker-panel .wheel-wrapper .wheel .wheel-scroll{
+
+    margin-top: 5rem;/*内容滚动区域*/
+
+}
+
+.picker .picker-panel .wheel-wrapper .wheel .wheel-scroll .wheel-item{
+
+    font-size: 1.5rem;/*滚动区域列表ul>li*/
+
+    line-height: 5rem;
+
+    height: auto;
+
+}
+
+.picker .picker-panel .picker-choose .picker-title{
+
+    font-size: 1.5rem;/*滚动选择器title*/
+
+    line-height: 4rem;
+
+}
+
+.picker .picker-panel .picker-choose span{
+
+    font-size: 1.5rem;/*滚动选择器的 确定 和 取消*/
+
+    line-height: 4rem;
+
+    padding:0!important;
+
+    top:0!important;
+
+    position: relative!important;
+
+}
+
+.picker .picker-panel .picker-choose .cancel{
+
+    float: left;/*滚动选择器的 取消*/
+
+}
+
+.picker .picker-panel .picker-choose .confirm{
+
+    float: right;/*滚动选择器的 确定*/
+
+}
+
+div.Artical>div {
+		display:none;
+        		color:#555;
+        	}
+        	div.Artical>div.active {
+        		display:block;
+        	}
+        	div.Artical>div.news {
+        		background:#ffffff;
+        	}
+        	div.Artical>div.product {
+        		background:lightgreen;
+        	}
+        	div.Artical>div.game {
+        		background:lightyellow;
+        	}
+        	div.Artical>div.download {
+        		background:lightpink;
+        	}
+          #select1_dummy{
+        	border:none;
+        	padding-left:10px;
+        	color:#555;
+        	font-size:17px;
+          }
+          #select1_dummy:disabled{
+        	background:#fff;
+          }
+        .um-time{
+            background:#ffffff;
+            border-top:1px solid #dddddd;
+            border-bottom:1px solid #dddddd;
+        }
+        .um-time-list{
+            height:46px;
+            line-height: 46px;
+        }
+        .um-time-list:first-child{
+            border-bottom:1px solid #dddddd;
+        }
+        .um-time-txt{
+            float: left;
+            color:#8c8d8e;
+        }
+        .um-time-list .fr{
+            position:relative;
+            float: right;
+            margin-right:30px;
+        }
+        .um-time-list .fr:after{
+            content: "";
+            position:absolute;
+            right:-15px;
+            top:15px;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-right: 2px solid #8c8d8e;
+            border-top: 2px solid #8c8d8e;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .um-time-list input{
+            display:block;
+            width: 180px;
+            height: 45px;
+            line-height:45px;
+            border: none;
+            outline: none;
+            text-align: right;
+            background: #fff;
+        }
+          #select1_dummy{
+        	border:none;
+        	padding-left:10px;
+        	color:#555;
+        	font-size:17px;
+          }
+          
+          #select1_dummy:disabled{
+        	background:#fff;
+          }
+          
+          #select1_dummy{
+        	border:none;
+        	padding-left:10px;
+        	color:#555;
+        	font-size:17px;
+          }
+          #select1_dummy:disabled{
+        	background:#fff;
+          }
